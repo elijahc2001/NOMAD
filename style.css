@@ -63,6 +63,18 @@ h4{
 letter-spacing: 0.15em;
 }
 
+h5{
+/* TITLE_SMALL */
+
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 24px;
+/* or 109% */
+color: #000000;
+}
+
 p{
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
@@ -84,14 +96,17 @@ p{
 .featured{
     /* position: ; */
     background-color:  rgba(46, 46, 46, 1);
-    margin: 0;
+
     display: flex;
     height: 600px;
 }
 
 .featured-text{
     color: #ffffff;
+    /* background-color: red; */
     margin: 10px 3% 10px 3%;
+    width: auto;
+    height: auto;
 }
 
 
@@ -104,6 +119,7 @@ p{
     display: flex;
     gap: 10px;
     text-decoration: underline;
+    text-transform: uppercase;
     /* justify-content: baseline; */
 }
 
@@ -112,13 +128,11 @@ p{
 #hero-image{
     background-color: aqua;
     height: auto ;
-    width: 100px;
+    width: 800px ; 
  
 }
 
-image{
-    width: 20px;
-}
+
 
 .load{
     color: #ffffff;
@@ -142,5 +156,33 @@ footer{
     padding: 20px 6% 100px 6%;
 
 }
+
+.row-1{
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 40px; */
+    /* background-color: red; */
+    /* margin: 40px auto 40px auto; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.three-wide{
+   background-color: #ffffff;
+   max-width: 400px; 
+   margin: 0; 
+   padding: 0 10px 0 10px; 
+
+
+}
+
+img{
+    max-width: ;
+}
+
+
+
+
 
 
