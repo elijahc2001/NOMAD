@@ -6,7 +6,7 @@ body{
 
 
 header{
-    /* background-color: aqua; */
+ 
     margin: 0;
    padding: 40px 6% 0 6%;
 }
@@ -17,10 +17,7 @@ font-family: 'Helvetica Neue', Arial, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 120px;
-
-
 letter-spacing: 0.05em;
-
 color: #2E2E2E;
 
 padding: 0 0 40px 0;
@@ -96,7 +93,7 @@ p{
 .featured{
     /* position: ; */
     background-color:  rgba(46, 46, 46, 1);
-
+    margin-bottom: 60px;
     display: flex;
     height: 600px;
 }
@@ -118,9 +115,11 @@ p{
 .tags{
     display: flex;
     gap: 10px;
+    padding: 0;
+    margin: 0;
     text-decoration: underline;
     text-transform: uppercase;
-    /* justify-content: baseline; */
+    background-color: red;
 }
 
 
@@ -159,26 +158,30 @@ footer{
 
 .row-1{
     display: flex;
-    /* justify-content: space-between; */
-    /* gap: 40px; */
-    /* background-color: red; */
-    /* margin: 40px auto 40px auto; */
-    margin-left: auto;
-    margin-right: auto;
-    
+    gap: 40px; 
+    justify-content: center;  
+    margin: 40px;
 }
 
 .three-wide{
    background-color: #ffffff;
-   max-width: 400px; 
+   max-width: 450px; 
+   max-height: 650px;
    margin: 0; 
-   padding: 0 10px 0 10px; 
+   padding: 20px; 
+
 
 
 }
 
+#three-wide-image{
+
+}
+
 img{
-    max-width: ;
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
 }
 
 
