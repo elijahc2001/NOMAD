@@ -89,6 +89,13 @@ p{
     z-index: 1;
     left: 0;
     right: 0;
+    padding:20px 0 0 24px ;
+}
+
+#triangle{
+    height: 30px;
+    width: auto;
+
 }
 
 .catagories{
@@ -96,6 +103,7 @@ p{
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 
