@@ -1,7 +1,7 @@
 body{
     background-color: #EEEEEE;
     /* padding: 40PX 100px 0 100px; */
-    margin: 0;
+    margin: 0 0 0 50px;
 }
 
 
@@ -81,6 +81,16 @@ p{
 
 }
 
+.sidebar{
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    background-color: #2E2E2E;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
 .catagories{
     padding: 0;
     margin-bottom: 40px;
@@ -115,21 +125,18 @@ p{
 .tags{
     display: flex;
     gap: 10px;
-    padding: 0;
+    padding: auto 0 0 0;
     margin: 0;
     text-decoration: underline;
     text-transform: uppercase;
     background-color: red;
+    align-items: flex-end;
+
 }
 
 
 
-#hero-image{
-    background-color: aqua;
-    height: auto ;
-    width: 800px ; 
- 
-}
+
 
 
 
@@ -174,9 +181,6 @@ footer{
 
 }
 
-#three-wide-image{
-
-}
 
 img{
     max-width: 100%;
