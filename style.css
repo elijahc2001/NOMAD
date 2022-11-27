@@ -89,12 +89,15 @@ p{
     z-index: 1;
     left: 0;
     right: 0;
-    padding:20px 0 0 24px ;
+
 }
 
 #triangle{
-    height: 30px;
+    margin: 20px 0 0 14px ;
+    left: 40px;
+    height: 28px;
     width: auto;
+    z-index: 2;
 
 }
 
@@ -120,6 +123,7 @@ p{
     color: #ffffff;
     /* background-color: red; */
     margin: 10px 3% 10px 3%;
+    max-width: 30%;
     width: auto;
     height: auto;
 }
@@ -137,7 +141,7 @@ p{
     margin: 0;
     text-decoration: underline;
     text-transform: uppercase;
-    background-color: red;
+    /* background-color: red; */
     align-items: flex-end;
 
 }
